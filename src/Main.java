@@ -1,5 +1,5 @@
 /*******************************
- * Name: Your name
+ * Name: Nicholas
  * Class: ICS3U
  * Date:Friday Sept 18
  * Project Name: MadLibs
@@ -25,10 +25,14 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
-		
-		
-		
-		
+		System.out.println("A recent survey informs us that one out of every "PLURALNOUN1" owns a/an" ADJECTIVE1 "phone. ");
+		int PLURALNOUN1 = in.nextInt();
+		int ADJECTIVE1 = in.nextInt();
+		System.out.println("Fortunately, VERB_ING_1 over a mobile NOUN1 in recent years has improved ADVERB1. ");
+		int noun2 = in.nextInt();
+		System.out.println("Give me an adjective: ");
+		String adjective = in.nextLine();
+		double dbl1 = in.nextDouble();
 		
 		
 		
