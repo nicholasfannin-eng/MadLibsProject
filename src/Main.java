@@ -25,18 +25,24 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		// YOUR CODE GOES HERE!!!!
-		System.out.println("A recent survey informs us that one out of every "PLURALNOUN1" owns a/an" ADJECTIVE1 "phone. ");
-		int PLURALNOUN1 = in.nextInt();
-		int ADJECTIVE1 = in.nextInt();
-		System.out.println("Fortunately, VERB_ING_1 over a mobile NOUN1 in recent years has improved ADVERB1. ");
-		int noun2 = in.nextInt();
+		System.out.println("Give me a plural noun: ");
+		String pn1 = in.nextLine();
 		System.out.println("Give me an adjective: ");
-		String adjective = in.nextLine();
-		double dbl1 = in.nextDouble();
+		String adj1 = in.nextLine();
+		System.out.println("A recent survey informs us that one out of every "+pn1+" owns a/an "+adj1+" phone. ");
 		
-		
-		
-		
+		System.out.println("Give me a verb: ");
+		String vrb1 = in.nextLine();
+		System.out.println("Give me a noun: ");
+		String n1 = in.nextLine();
+		System.out.println("Give me an adverb: ");
+		String avrb1 = in.nextLine();
+		System.out.println("Fortunately, "+vrb1+"ing over a mobile "+n1+" in recent years has improved "+avrb1+"");
+		System.out.println("Give me a body part: ");
+		String bp1 = in.nextLine();
+		System.out.println("Give me another plural noun: ");
+		String pn2 = in.nextLine();
+		System.out.println("Today, "+bp1+"-held "+pn2+" are all the rage.");
 		
 		
 		in.close();//Don't forget to clean up after yourselves!
