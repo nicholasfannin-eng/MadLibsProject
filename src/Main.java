@@ -67,9 +67,16 @@ public class Main {
 		String n5 = in.nextLine();
 		System.out.println("Walking and talking are now the “in” "+n5+" to do. ");
 		System.out.println("Give me a number: ");
-		String n2 = in.nextLine();
+		String nr2 = in.nextLine();
+		System.out.println("Give me an adjective: ");
+		String adj3 = in.nextLine();
+		System.out.println("Give me a plural noun: ");
+		String pn5 = in.nextLine();
+		System.out.println("Give me a bodypart: ");
+		String bp2 = in.nextLine();
+		System.out.println("Over "+nr2+" percent of Americans walk our "+adj3+" streets with a handheld "+pn5+" pressed against their "+bp2+"");
 
-		
+		System.out.println("The End");
 
 		in.close();//Don't forget to clean up after yourselves!
 	}
